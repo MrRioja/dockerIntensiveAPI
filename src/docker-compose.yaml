@@ -1,0 +1,30 @@
+version: '3'
+
+networks:
+  apiDocker:
+    driver: bridge
+
+volumes:
+  mongoVolume:
+
+services:
+  appDockerInt:
+    image: mrrioja/docker-intensive:1.0.0
+    ports:
+      - 8080:8080
+    environment:
+      MONGODB_URI: mongodb://mongo:mongo@mongoDockerInt:27017/admin
+    networks:
+      - apiDocker
+  
+  mongoDockerInt:
+    image: mongo
+    networks:
+      - apiDocker
+    # ports:
+    #   - 27017:27017
+    volumes:
+      - mongoVolume:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongo
+      MONGO_INITDB_ROOT_PASSWORD: mongo
