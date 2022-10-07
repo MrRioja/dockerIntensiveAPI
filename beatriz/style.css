@@ -1,0 +1,56 @@
+/* Reset */
+
+:root {
+  --bg: #fff8e2
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 380px;
+  display: flex;
+  align-items: center;
+  background: var(--bg);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  flex-direction: column;
+
+}
+
+.header p {
+  font-size: 10px;
+}
+
+.content {
+  width: 275px;
+  text-align: center;
+}
+
+.codigo {
+  margin: 25px 0;
+}
+
+.footer {
+  bottom: 20px;
+  position: absolute;
+}
