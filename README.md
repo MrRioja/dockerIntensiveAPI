@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
-  <a href="#dokcer-intensive-api">Docker Intensive API</a> •
+  <a href="#docker-intensive-api">Docker Intensive API</a> •
   <a href="#instalação">Instalação</a> •
   <a href="#tecnologias">Tecnologias</a> •
   <a href="#autor">Autor</a>  
@@ -64,7 +64,7 @@ $ node ./app.js
 
 <img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/1280px-Docker_%28container_engine%29_logo.svg.png" alt="Docker" height="75" />
 
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 ## Autor
 
